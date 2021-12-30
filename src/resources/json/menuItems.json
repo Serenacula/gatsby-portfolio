@@ -1,0 +1,16 @@
+{
+    "home": {
+        "name": "Home",
+        "url": "/"
+    },
+    "menuItems": [
+        {
+            "name": "Home",
+            "url": "/"
+        },
+        {
+            "name": "Portfolio",
+            "url": "/portfolio"
+        }
+    ]
+}

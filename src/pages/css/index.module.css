@@ -1,0 +1,94 @@
+.mainTitle {
+    font-family: Great Vibes, cursive;
+	font-size: 4rem;
+	color: #66BFBF;
+	padding-top: 58px;
+	padding-right: 8px;
+	line-height: 1.2;
+}
+
+.mainSubtitle {
+    font-family: Merriweather, serif;
+	font-size: 1.5rem;
+	color: #66BFBF;
+}
+
+.headerImage {
+	position: relative;
+	top: 60px;
+}
+
+
+.sectionTitle {
+	text-align: center;
+	padding-top: 60px;
+	font-family: Merriweather, serif;
+	font-size: 1.5rem;
+}
+
+.skillsTitle {
+	font-size: 2rem;
+}
+
+.innerDiv {
+	
+	box-shadow: 1px 2px 18px 2px rgba(0,0,0,0.40);
+	-webkit-box-shadow: 1px 5px 18px 2px rgba(0,0,0,0.30);
+	-moz-box-shadow: 1px 2px 18px 2px rgba(0,0,0,0.40);
+	border-radius: 8px;
+	
+	text-align: left;
+	margin: 15px 5px;
+	padding: 30px 15px;
+	max-width: 600px;
+	height:fit-content;
+	
+}
+
+.innerDiv h3 {
+	font-family: Merriweather, serif;
+	font-size: 1.2rem;
+	color: #66BFBF;
+}
+
+.innerDiv p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+
+
+
+.secondSection {
+	/* text-align: left; */
+	font-size: 1.1rem;
+}
+
+.thirdSection, .fourthSection, .fifthSection {
+	min-height: 100vh;
+}
+
+
+
+@media screen and (max-width: 899px) {
+	.innerDiv {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.thirdSection, .fourthSection, .fifthSection {
+		display: flex;
+		align-items: center;
+	}
+	
+	.fourthSection {
+		flex-direction: row-reverse;
+	}
+	
+	.thirdSection h2, .fourthSection h2, .fifthSection h2 {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+}

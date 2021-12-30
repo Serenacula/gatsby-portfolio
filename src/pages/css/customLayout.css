@@ -1,0 +1,68 @@
+p, a {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.firstColourBackground {
+    background-color: #f1f9f9;
+}
+
+.firstColourText {
+    color: #66BFBF;
+}
+
+.secondColourBackground {
+    background-color: #effcef;
+}
+
+.secondColourText {
+    color: #66BFBF;
+}
+
+.thirdColourBackground {
+    background-color: #ccedd2;
+}
+
+.thirdColourText {
+    color: #55AFAF;
+}
+
+.fourthColourBackground {
+    background-color: #94d3ac;
+}
+
+.fourthColourText {
+    color: #458F8F;
+}
+
+.fifthColourBackground {
+    background-color: #6a8caf;
+}
+
+.fifthColourText {
+    color: #eaeaea;
+}
+
+.linkColour {
+    color: #2a72b9;
+}
+
+.disabledLinkColour {
+    color: rgb(168, 168, 168)
+}
+
+
+.mainColumn {
+    text-align: center;
+	color: black;
+	
+	
+	margin: 0 auto;
+	max-width: 960;
+	padding: 0 1.0875rem 1.45rem;
+}

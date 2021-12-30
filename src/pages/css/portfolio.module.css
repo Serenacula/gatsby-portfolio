@@ -1,0 +1,23 @@
+.firstSection {
+    text-align: center;
+}
+
+.firstSectionTitle {
+    font-size: 3.5rem;
+    font-family: Merriweather, Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    
+}
+
+.firstSectionSubtitle {
+    font-size: 1.5rem;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.firstSection {
+    
+}
+
+.secondSection {
+    padding: 1px 30px 1px;
+}
